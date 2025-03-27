@@ -1,0 +1,36 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore Pyxel cache or temporary files (if any)
+*.pxd
+*.pxi
+*.pyd
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore build and distribution files
+dist/
+build/
+*.egg-info
+
+# Ignore game assets that shouldn't be tracked (uncomment if needed)
+# assets/*.wav
+# assets/*.mp3
+# assets/*.png
+
+# Ignore commit message storage directory
+.git_commits/
+
